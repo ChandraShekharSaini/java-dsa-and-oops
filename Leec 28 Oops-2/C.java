@@ -5,7 +5,7 @@ class C extends P {
     String name = "Chandra";
 
     public void fun() {
-        System.out.println("I am fun of Pjj");
+        System.out.println("I am fun of C");
 
     }
 

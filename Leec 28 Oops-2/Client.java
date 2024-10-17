@@ -28,8 +28,22 @@ public class Client {
 
         System.out.println("-------------Case-3-Start(Not Allowed In Java)-------------------");
         // C obj1 = new P();
-        System.out.println(obj1.d);
-        System.out.println(obj1.d1);
+        // System.out.println(obj1.d);
+        // System.out.println(obj1.d1);
         System.out.println("-------------Case-3-End-------------------");
+
+        System.out.println("-------------Case-4-End-------------------");
+        C obj2 = new C();
+        System.out.println(obj2.d);//1
+        System.out.println(obj2.d1);//10
+        System.out.println(obj2.name);//Chandra
+        System.out.println(((P)(obj2)).d);//11
+
+        obj2.fun();
+        obj2.fun1();
+        obj2.fun2();
+        ((P)(obj2)).fun(); //jo method common he C and P me , C ke he call hoge Type Cast karne ke baad
+
+        System.out.println("-------------Case-4-End-------------------");
     }
 }

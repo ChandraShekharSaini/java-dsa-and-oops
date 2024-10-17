@@ -1,1 +1,0 @@
-        Student sc1 = new Student();

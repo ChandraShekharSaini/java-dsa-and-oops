@@ -3,9 +3,7 @@ public class threeDotArgu {
 
     public static void main(String[] args) {
 
-        Add(1, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 9);
-
-        // Add(5, 4, 5, 6, 6, 7, 7);
+        Add(5, 4, 5, 6, 6, 7, 7);
     }
 
 //    one class can only have one three dot argument . 
@@ -16,7 +14,7 @@ public class threeDotArgu {
             sum += args[i];
         }
 
-        System.out.println(sum);
+        System.err.println(sum);
     }
 
     // public static void Add(int x, int... args) {

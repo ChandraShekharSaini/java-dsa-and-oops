@@ -7,7 +7,7 @@ public class Student {
 
     public static void main(String[] args) {
 
-        //method overloadig   //method overloadig
+        //method overloadig//method overloadig
         System.out.println(Add(1, 3));
         System.out.println(Add(1, 3, 4));
         System.out.println(Add(1, 3, 9));

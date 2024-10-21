@@ -1,5 +1,5 @@
 
-class P {
+class  P {
 
     int d = 11;
     int d2 = 101;

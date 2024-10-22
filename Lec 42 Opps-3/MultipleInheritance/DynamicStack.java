@@ -1,3 +1,7 @@
-public interface   DynamicStack{
 
+//B
+// DynamicStack  interface  
+public interface DynamicStack {
+
+    public void fun();
 }
